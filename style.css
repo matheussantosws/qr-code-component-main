@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 5%;
+    background-color:hsl(212, 45%, 89%);
+}
+
+.card-container {
+    
+    border-radius: 5%;
+    padding: 5%;
+    background-color: white;
+}
+
+.card-info {
+    display:block;
+    text-align: center;
+} 
+
+h2{
+    padding: 9%;
+}
+
+.image-qr-code {
+    width: 100%;
+    border-radius: 5%;
+}
