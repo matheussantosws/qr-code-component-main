@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 .container {
     padding: 5%;
@@ -20,10 +22,60 @@
 } 
 
 h2{
+    font-weight: 700;
     padding: 9%;
+}
+
+p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
 }
 
 .image-qr-code {
     width: 100%;
     border-radius: 5%;
+}
+
+/*Tela Responsiva Desktop*/
+
+@media (min-width:720px) {
+    .card-container {
+        width: 30%;
+        display: block;
+        justify-content:center;
+        align-items: center;
+    }
+    .container {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+}
+
+@media (min-width:1024px) {
+    .card-container {
+        width: 30%;
+        display: block;
+        justify-content:center;
+        align-items: center;
+    }
+    .container {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+}
+
+@media (min-width:1980px) {
+    .card-container {
+        width: 30%;
+        display: block;
+        justify-content:center;
+        align-items: center;
+    }
+    .container {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
 }
